@@ -1,32 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
+
     <title>Login</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
 
-<h1>Login</h1>
+<header>
 
-<form id="formLogin">
+    <div class="logo">
 
-    <label>E-mail:</label><br>
-    <input type="email" id="email" required>
+        <h1>Albergue Santa Helena</h1>
 
-    <br><br>
+    </div>
 
-    <label>Senha:</label><br>
-    <input type="password" id="senha" required>
+    <nav>
 
-    <br><br>
+        <a href="index.html">Home</a>
+        <a href="cadastro.html">Cadastro</a>
 
-    <button type="submit">
-        Entrar
-    </button>
+    </nav>
 
-</form>
+</header>
+
+<div class="formulario">
+
+    <h2>Login</h2>
+
+    <form id="formLogin">
+
+        <label>E-mail</label>
+
+        <input
+        type="email"
+        id="email"
+        required>
+
+        <label>Senha</label>
+
+        <input
+        type="password"
+        id="senha"
+        required>
+
+        <button type="submit">
+            Entrar
+        </button>
+
+    </form>
+
+    <p>
+        Ainda não possui cadastro?
+        <a href="cadastro.html">
+
+            Clique aqui
+
+        </a>
+    </p>
+
+</div>
 
 <script src="js/login.js"></script>
 
 </body>
+
 </html>
